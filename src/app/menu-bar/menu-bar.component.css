@@ -1,0 +1,16 @@
+.container {
+  display: flex;
+  position: fixed;
+  height: 70px;
+  width: 375px;
+  bottom: 0;
+  justify-content: space-around;
+  align-items: center;
+  background-color: #ffffff;
+}
+
+.container > img {
+  display: block;
+  width: 24px;
+  height: 24px;
+}
