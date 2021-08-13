@@ -1,0 +1,9 @@
+<div class="container" *ngIf="content">
+  <img [src]="content.image.url" />
+  <div class="body">
+    <h3>{{ content.title }}</h3>
+    <p>
+      {{ content.description }}
+    </p>
+  </div>
+</div>
