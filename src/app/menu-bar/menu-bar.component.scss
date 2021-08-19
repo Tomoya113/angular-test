@@ -7,10 +7,10 @@
   justify-content: space-around;
   align-items: center;
   background-color: #ffffff;
-}
 
-.container_img {
-  display: block;
-  width: 24px;
-  height: 24px;
+  &_img {
+    display: block;
+    width: 24px;
+    height: 24px;
+  }
 }

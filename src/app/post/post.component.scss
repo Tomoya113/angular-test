@@ -3,22 +3,22 @@
   border-radius: 10px;
   background-color: #ffffff;
   margin-top: 16px;
-}
 
-.container_img {
-  width: 335px;
-  height: 160px;
-  object-fit: cover;
-  object-position: top;
-  border-radius: 10px 10px 0px 0px;
+  &_img {
+    width: 335px;
+    height: 160px;
+    object-fit: cover;
+    object-position: top;
+    border-radius: 10px 10px 0px 0px;
+  }
 }
 
 .body {
   padding: 10px 12px;
-}
 
-.body_description {
-  margin-top: 6px;
-  font-size: 14px;
-  font-weight: normal;
+  &_description {
+    margin-top: 6px;
+    font-size: 14px;
+    font-weight: normal;
+  }
 }
