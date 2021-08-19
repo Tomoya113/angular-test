@@ -9,17 +9,16 @@ import { Posts } from './entities/posts';
   providedIn: 'root',
 })
 export class PostsService {
-  private URL = 'https://ispec-test.microcms.io/api/v1/photo';
   httpOptions = {
     headers: new HttpHeaders({
       'X-API-KEY': environment.APIKey,
     }),
   };
-
   constructor(private http: HttpClient) {}
 
   getPosts(): Observable<Posts> {
-    return this.http.get<Posts>(this.URL, this.httpOptions).pipe(
+    let url = environment.URL + '/photo';
+    return this.http.get<Posts>(url, this.httpOptions).pipe(
       map((posts) => {
         posts.contents.map((content) => {
           content.image.url += '?fm=webp&w=500&fit=clamp';
