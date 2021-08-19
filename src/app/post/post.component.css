@@ -5,7 +5,7 @@
   margin-top: 16px;
 }
 
-.container > img {
+.container_img {
   width: 335px;
   height: 160px;
   object-fit: cover;
@@ -17,7 +17,7 @@
   padding: 10px 12px;
 }
 
-.body p {
+.body_description {
   margin-top: 6px;
   font-size: 14px;
   font-weight: normal;
