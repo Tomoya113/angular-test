@@ -2,4 +2,8 @@
   height: calc(100vh - 70px);
   padding: 36px 20px 24px 20px;
   overflow: scroll;
+
+  &_title {
+    font-size: 22px;
+  }
 }
