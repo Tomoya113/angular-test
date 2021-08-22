@@ -1,6 +1,8 @@
+@import "variables";
+
 .container {
   border-radius: 10px;
-  background-color: #ffffff;
+  background-color: $post-background;
   margin-top: 16px;
 
   &_img {
