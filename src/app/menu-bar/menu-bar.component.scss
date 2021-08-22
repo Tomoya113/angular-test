@@ -9,6 +9,7 @@
   justify-content: space-around;
   align-items: center;
   background-color: $menu-bar-background;
+  box-shadow: 0px -4px 20px rgba(0, 0, 0, 0.04);
 
   &_img {
     display: block;
