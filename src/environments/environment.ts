@@ -3,7 +3,9 @@
 // The list of file replacements can be found in `angular.json`.
 
 export const environment = {
-  production: false
+  production: false,
+  URL: 'https://ispec-test.microcms.io/api/v1',
+  APIKey: 'b279aadc-834e-4977-80e2-e7ba2c825bb7',
 };
 
 /*
